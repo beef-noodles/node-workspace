@@ -6,6 +6,12 @@
 npm install
 ```
 
+## Dev
+
+```sh
+npm run start:dev -w packages/app
+```
+
 ## Build
 ```sh
 npm run build
