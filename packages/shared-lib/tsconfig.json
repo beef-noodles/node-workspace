@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./dist"
+  },
+  "include": ["./**/*.ts"],
+  "extends": "../../tsconfig.json",
+  "paths": {
+    "@node-workspace/*": ["./packages/*"]
+  },
+  "references": []
+}

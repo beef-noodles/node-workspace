@@ -1,17 +1,16 @@
 {
-  "name": "@node-workspace/reminder",
+  "name": "@node-workspace/app",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
-    "@node-workspace/utils": "*"
+  "devDependencies": {
+    "@node-workspace/shared-lib": "*"
   }
 }
